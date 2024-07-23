@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #808080;
+    height: 100vh;
+}
+
+nav {
+    height: 10vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10;
+    position: sticky;
+}
+
+.menu ul {
+    display: flex;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #111111;
+    padding: 10px 20px;
+}
+
+/* packges  */
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff !important;
+    margin-top: 60px;
+
+}
+
+header h1 {
+    width: 740px;
+    font-size: 3.75rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+
+}
+
+header p {
+    font-size: 1.450rem;
+    width: 660px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cards {
+
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 20%;
+    height: 60vh;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.cards ul li {
+    text-align: left;
+    list-style: none;
+    line-height: 2.5;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #808080 !important;
+}
+
+section .cards .btn button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #ffffff !important;
+    background-color: #ec6011 !important;
+    padding: 14px 53px 15px 52px;
+    border: 0px;
+}
+
+section img {
+    width: 20px;
+    height: 20px;
+
+}
+
+/* The CSS of the Prices sections  */
+.price {
+    width: 290px;
+    height: 226px;
+    background-image: linear-gradient(#4e4276, #573aba);
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    position: absolute;
+    top: -90px;
+    align-content: center;
+}
+
+.price h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.price h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+
+}
+
+.price1 {
+    width: 290px;
+    height: 226px;
+    background-image: linear-gradient(#697d34, #92c705);
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    position: absolute;
+    top: -90px;
+    align-content: center;
+}
+
+.price1 h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.price1 h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+
+}
+
+.price2 {
+    width: 290px;
+    height: 226px;
+    background-image: linear-gradient(#ae6237, #ec6011);
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    position: absolute;
+    top: -90px;
+    align-content: center;
+}
+
+.price2 h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.price2 h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Roboto Slab", serif;
+
+}
+
+/* //////////// Footer /////////////////////// */
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+.first {
+    font-size: 0.875rem;
+    margin-bottom: 40px;
+}
+
+.second {
+    font-size: 0.8rem;
+
+}
