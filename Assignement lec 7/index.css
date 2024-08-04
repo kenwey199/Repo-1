@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+}
+
+/* Head Section  */
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    padding: 3rem;
+    border: 0.5px solid #28282828;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding: 62px 100px;
+    align-items: center;
+}
+
+.cards p h2 {
+    max-width: 90%;
+    width: 100%;
+}
+
+.logo h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+
+}
+
+.Menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.Menu ul li a {
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+.icon {
+    display: none;
+}
+
+
+section {
+    width: 100%;
+    height: 624px;
+    gap: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.Home {
+    width: 100%;
+    height: 340px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.main {
+    width: 100%;
+}
+
+.cards {
+    width: 557px;
+    height: 340px;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.cards p {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 90px;
+    text-align: left;
+
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+
+/* Serivec page CSS */
+
+.Services {
+    width: 100%;
+    gap: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 250px;
+    height: 328px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    text-align: center;
+}
+
+.photo img {
+    width: 130px;
+    height: 130px;
+}
+
+.S-Cards p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 15px;
+}
+
+.S-Cards h3 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+/* project page Css  */
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.p-row {
+    width: calc((100% - 4rem) / 3);
+    gap: 50px;
+
+}
+
+.p-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p-cards h3 {
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    /* margin-top: 15px; */
+
+}
+
+.p-cards p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    /* margin-top: 15px; */
+
+
+}
+
+/* Clients Css  */
+.C-cards {
+    width: 315px;
+    height: 317px;
+    padding: 30px;
+    gap: 20px;
+    border: 1.5px solid #1576D6;
+    background-color: #F9FDFF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.Clients img {
+    width: 20px;
+    height: 20px;
+
+
+}
+
+/* Contacts  */
+.Contacts {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 200px;
+}
+
+
+
+.left_contact {
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+
+.left_contact h2 {
+    max-width: 90%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+
+}
+
+.left_contact p {
+    max-width: 90%;
+    width: 360px;
+    height: 108px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+}
+
+.social_contact {
+    display: flex;
+    gap: 13px;
+}
+
+.social_contact img {
+    width: 36px;
+    height: 36px;
+}
+
+#in1,
+#in2,
+#in3 {
+    max-width: 90%;
+    width: 530px;
+    height: 69px;
+    padding: 21px 30px 21px 30px;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    background-color: #F3F3F3;
+    border: none;
+    color: #2D2D2D;
+}
+
+#in3 {
+    height: 231px;
+}
+
+.btn_contact {
+    cursor: pointer;
+    width: 199px;
+    height: 66px;
+    padding: 18px 64px 18px 64px;
+    gap: 10px;
+    background: #2D2D2D;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.right_contact {
+    max-width: 90%;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* home page responsive  */
+    header {
+        width: 100%;
+    }
+
+    .Menu {
+        display: none;
+        width: 100%;
+    }
+
+    .Home .cards h2 {
+        width: 100%;
+    }
+
+    .Home {
+        width: 100%;
+    }
+
+    .main {
+       width: 100%;
+    }
+
+    .icon {
+        display: block;
+    }
+
+
+    .Home {
+        width: 100%;
+        display: block;
+
+    }
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    /* Services page responsive  */
+    .Services {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    /* Project page Resp */
+
+    .p-row {
+        width: 100%;
+        display: block;
+    }
+
+    /* Clients responsive  */
+    .Clients {
+        width: 100%;
+        display: block;
+        gap: 25px;
+
+    }
+
+    .C-cards {
+        width: 100%;
+
+
+    }
+
+    /* contacts responsive  */
+    .Contacts {
+        width: 100%;
+        display: block;
+        gap: 25px;
+    }
+
+
+}
