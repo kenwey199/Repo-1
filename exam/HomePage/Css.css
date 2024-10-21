@@ -3480,11 +3480,14 @@ color: #686868;
     /* section 500  */
 
     .five {
+        height: auto;
         width: 100%;
         display: flex;
+        height: auto;
     }
 
     .Section500 {
+        height: auto;
         width: 100%;
         display: block;
         padding: 1.5rem;
@@ -3502,11 +3505,13 @@ color: #686868;
     .left-500 {
         width: 100%;
         border-radius: 0px 0px 10px 10px;
-
+        height: auto;
     }
 
     /* More section  */
     .More {
+
+/* height: auto; */
 
 /* margin-top: 5rem; */
 
@@ -3523,7 +3528,6 @@ flex-direction: column;
 align-items: center;
 
 flex-wrap: nowrap;
-
 }
 
     /* .master {
